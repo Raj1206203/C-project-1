@@ -29,7 +29,7 @@ int main(){
     
     gross= basicsalary + hra + ma + da + ta ;
 
-    netsalary = basicsalary - pf - pt;
+    netsalary = gross - pf - pt;
 
     printf("\nyour gross salary is : %.2f",gross);
 
